@@ -1,0 +1,97 @@
+// variable declarations
+$yellow: #ffff66;
+$blueBlack: #080B21;
+$softBlue: #BFE6FF;
+
+
+//mobile design
+
+#introduction{
+    background-image: url("../img/FFVI.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    &-decoration{
+        background: rgb(255, 255, 102,0.7);
+        border: 0.5px dotted rgb(255, 255, 102);
+        width: 50vw;
+        height: 50vw;
+        border-radius: 50%;
+        margin: auto;
+        //z-index: -1;
+        img{
+            margin:auto;
+            width: inherit;
+            height: inherit;
+        }
+    }
+    
+    p{
+        background-color: $blueBlack;
+        color: white;
+        text-align: center;
+        padding:10px;
+        font-size: 40px;
+    }
+
+    header{
+        margin: 0px;
+        h1{
+            display:inline-block;
+            width:100vw;
+            margin:0px;
+            background-color: $yellow;
+            font-size: 88px;
+            font-weight:bold
+        }
+
+        p{
+            //sdisplay: inline-block;
+            width:50vw;
+            font-size:44px;
+            margin-top: 0px;
+            text-align: left;
+            font-weight:200
+        }
+    }
+
+}
+
+div.centerSection{
+    div:nth-child(odd){
+        background-color: $softBlue;
+    }
+
+    div:nth-child(even){
+        background-color: beige;
+    }
+}
+
+
+body{
+    font-family:Helvetica, Arial, Helvetica, sans-serif;
+    margin:0px;
+}
+
+.innerTitle{
+    font-size:60px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.informationData {
+
+    dt{
+        font-size:35px;
+        font-weight: bolder;
+        text-transform:uppercase;
+        margin-bottom:12px;
+        margin-top:36px;
+    }
+
+    dd{
+        font-size: 30px;
+        margin:0px;
+    }
+}
+
+//desktop design
