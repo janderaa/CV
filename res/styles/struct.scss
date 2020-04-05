@@ -57,15 +57,55 @@ $softBlue: #BFE6FF;
 }
 
 div.centerSection{
-    div:nth-child(odd){
+    div.div-part:nth-child(odd){
         background-color: $softBlue;
     }
 
-    div:nth-child(even){
-        background-color: beige;
+    div.div-part:nth-child(even){
+        background-color: white;
+    }
+
+    div.imageSection{
+        width: 100%;
+        height: 75%;
+        padding-bottom: 20vw;
+        background-attachment: fixed;
+        background-position: center;
+        //background-size: unset;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1000;
     }
 }
 
+#educationSection{
+    div.imageSection{
+        background-image: url("../img/UDFJ.jpg");
+    }
+}
+
+#portfolioSection{
+    div.imageSection{
+        background-image: url("../img/PHPsample.gif");
+    }
+}
+
+#proExperienceSection{
+    div.imageSection{
+        background-image: url("../img/pegasus.gif");
+        background-size: cover;
+        background-attachment: local;
+    }
+}
+
+#socialAccountsSection{
+    .informationData{
+        dt, dd{
+            text-align: left;
+        }
+    }
+    
+}
 
 body{
     font-family:Helvetica, Arial, Helvetica, sans-serif;
@@ -83,15 +123,24 @@ body{
     dt{
         font-size:35px;
         font-weight: bolder;
+        text-align: center;
         text-transform:uppercase;
         margin-bottom:12px;
         margin-top:36px;
     }
 
     dd{
-        font-size: 30px;
+        font-size: 35px;
+        text-align: center;
         margin:0px;
     }
+}
+
+footer{
+    font-size:50px;
+    text-align:center;
+    background-color:$blueBlack;
+    color:white;
 }
 
 //desktop design
