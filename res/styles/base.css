@@ -106,10 +106,19 @@ div.centerSection div.imageSection {
   background-attachment: local;
 }
 
+#socialAccountsSection .informationData {
+  display: flex;
+  flex-wrap: wrap;
+}
 #socialAccountsSection .informationData span {
   visibility: hidden;
 }
-#socialAccountsSection img {
+#socialAccountsSection .informationData div.contentWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+}
+#socialAccountsSection .informationData div.contentWrapper img {
   width: 100px;
   height: 100px;
 }
@@ -149,7 +158,7 @@ footer p {
   margin: 0px;
 }
 
-@media screen and (max-width: 500px) and (orientation: landscape), (orientation: portrait) {
+@media screen and (max-width: 500px), (max-height:500px) and (orientation: landscape), (orientation: portrait) {
   #introduction {
     background-image: url("../img/FFVI.png");
     background-repeat: no-repeat;
@@ -236,13 +245,22 @@ footer p {
     background-attachment: local;
   }
 
+  #socialAccountsSection {
+    display: inline-block;
+    flex-wrap: nowrap;
+  }
   #socialAccountsSection .informationData dt, #socialAccountsSection .informationData dd {
     text-align: left;
   }
   #socialAccountsSection .informationData span {
     visibility: visible;
   }
-  #socialAccountsSection img {
+  #socialAccountsSection .informationData div.contentWrapper {
+    display: inline-block;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  #socialAccountsSection .informationData div.contentWrapper img {
     width: 150px;
     height: 150px;
   }

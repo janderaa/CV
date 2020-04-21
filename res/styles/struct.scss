@@ -1,11 +1,13 @@
 
 $mobileVariableWidth: "max-width: 500px";
+$mobileVariableHeight: "max-height:500px";
 
 //desktop design
 @import "structWeb.scss";
 
 //mobile design
-@media screen and ($mobileVariableWidth) and (orientation: landscape),(orientation: portrait){
+@media screen and ($mobileVariableWidth),($mobileVariableHeight) and 
+    (orientation: landscape),(orientation: portrait){
 
 #introduction{
     background-image: url("../img/FFVI.png");
@@ -109,6 +111,8 @@ div.centerSection{
 }
 
 #socialAccountsSection{
+    display: inline-block;
+    flex-wrap: nowrap;
     .informationData{
         dt, dd{
             text-align: left;
@@ -116,13 +120,16 @@ div.centerSection{
         span{
             visibility: visible;
         }
+        div.contentWrapper{
+            display: inline-block;  
+            flex-wrap: nowrap;
+            width:100%;
+            img{
+                width: 150px;
+                height: 150px;
+            }
+        }
     }
-
-    img{
-        width: 150px;
-        height: 150px;
-    }
-    
 }
 
 body{
