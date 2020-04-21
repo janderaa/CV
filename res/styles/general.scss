@@ -1,3 +1,10 @@
+// variable declarations
+$yellow: #ffff66;
+$blueBlack: #080B21;
+$softBlue: #BFE6FF;
+
+
+
 a{
     color:inherit;
     font-weight: bold;
@@ -9,7 +16,7 @@ a{
         text-decoration: dotted;
     }
     &:hover{
-        text-decoration: underline;
+        text-decoration: none;
     }
     &:active{
         text-decoration: double;

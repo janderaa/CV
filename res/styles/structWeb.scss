@@ -1,21 +1,16 @@
 
-$mobileVariableWidth: "max-width: 500px";
-
-//desktop design
-@import "structWeb.scss";
-
-//mobile design
-@media screen and ($mobileVariableWidth) and (orientation: landscape),(orientation: portrait){
-
+    
 #introduction{
+
     background-image: url("../img/FFVI.png");
     background-repeat: no-repeat;
     background-size: cover;
+
     &-decoration{
         background: rgb(255, 255, 102,0.7);
         border: 0.5px dotted rgb(255, 255, 102);
-        width: 50vw;
-        height: 50vw;
+        width: 20vw;
+        height: 20vw;
         border-radius: 50%;
         margin: auto;
         //z-index: -1;
@@ -25,61 +20,66 @@ $mobileVariableWidth: "max-width: 500px";
             height: inherit;
         }
     }
-    
+
     p{
         background-color: $blueBlack;
         color: white;
         text-align: center;
         padding:10px;
-        font-size: 40px;
+        font-size: 20px;
     }
 
     header{
         margin: 0px;
         h1{
             display:inline-block;
-            width:100vw;
+            width:100%;
             margin:0px;
             background-color: $yellow;
-            font-size: 88px;
+            font-size: 40px;
             font-weight:bold
         }
 
         p{
-            //sdisplay: inline-block;
-            width:50vw;
-            font-size:44px;
+            font-size:22px;
+            width:20%;
             margin-top: 0px;
             text-align: left;
-            font-weight:200
+            font-weight:200;
         }
     }
 
 }
 
 div.centerSection{
-    margin-left:0px;
-    margin-right:0px;
-    border: none;
+
+    margin-left:100px;
+    margin-right:100px;
+
     div.div-part:nth-child(odd){
         background-color: $softBlue;
-        border: none;
-        box-shadow: none;
+        border-left-style: solid;
+        border-color: #080B21;
+        border-bottom-style: solid;
+        border-color: #080B21;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     div.div-part:nth-child(even){
         background-color: white;
-        border: none;
-        box-shadow: none;
+        border-right-style: solid;
+        border-color: #080B21;
+        border-bottom-style: solid;
+        border-color: #080B21;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     div.imageSection{
-        width: 100%;
+        width: 50%;
         height: 75%;
         padding-bottom: 20vw;
         background-attachment: fixed;
         background-position: center;
-        //background-size: unset;
         background-size: cover;
         background-repeat: no-repeat;
         z-index: -1000;
@@ -89,14 +89,14 @@ div.centerSection{
 #educationSection{
     div.imageSection{
         background-image: url("../img/UDFJ.jpg");
-        margin-left: 0px;
+        margin-left: 50%;
     }
 }
 
 #portfolioSection{
     div.imageSection{
         background-image: url("../img/PHPsample.gif");
-        margin-left: 0px;
+        margin-left: 50%;
     }
 }
 
@@ -105,22 +105,20 @@ div.centerSection{
         background-image: url("../img/pegasus.gif");
         background-size: cover;
         background-attachment: local;
+        
     }
 }
 
 #socialAccountsSection{
     .informationData{
-        dt, dd{
-            text-align: left;
-        }
         span{
-            visibility: visible;
+            visibility: hidden;
         }
     }
 
     img{
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
     }
     
 }
@@ -131,7 +129,7 @@ body{
 }
 
 .innerTitle{
-    font-size:60px;
+    font-size:30px;
     text-align: center;
     font-weight:bold;
 }
@@ -139,7 +137,7 @@ body{
 .informationData {
 
     dt{
-        font-size:35px;
+        font-size:20px;
         font-weight: bolder;
         text-align: center;
         text-transform:uppercase;
@@ -148,21 +146,14 @@ body{
     }
 
     dd{
-        font-size: 35px;
+        font-size: 15px;
         text-align: center;
         margin:0px;
     }
 }
 
-div#socialAccountsSection{
-    img, span{
-        vertical-align: middle;
-    }
-}
-
-
 footer{
-    font-size:50px;
+    font-size:20px;
     text-align:center;
     background-color:$blueBlack;
     color:white;
@@ -170,6 +161,3 @@ footer{
         margin:0px;
     }
 }
-
-}
-
