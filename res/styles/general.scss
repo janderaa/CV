@@ -1,0 +1,17 @@
+a{
+    color:inherit;
+    font-weight: bold;
+
+    &:link{
+        text-decoration: none;
+    }
+    &:visited{
+        text-decoration: dotted;
+    }
+    &:hover{
+        text-decoration: underline;
+    }
+    &:active{
+        text-decoration: double;
+    }
+}

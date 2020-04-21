@@ -102,11 +102,32 @@ body {
   margin: 0px;
 }
 
+div#socialAccountsSection img, div#socialAccountsSection span {
+  vertical-align: middle;
+}
+
 footer {
   font-size: 50px;
   text-align: center;
   background-color: #080B21;
   color: white;
+}
+
+a {
+  color: inherit;
+  font-weight: bold;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: dotted;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: double;
 }
 
 /*# sourceMappingURL=base.css.map */
