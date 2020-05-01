@@ -98,6 +98,9 @@ div.centerSection div.imageSection {
   background-repeat: no-repeat;
   z-index: -1000;
 }
+div.centerSection p {
+  font-size: 20px;
+}
 
 #educationSection div.imageSection {
   background-image: url("../img/UDFJ.jpg");
@@ -134,7 +137,7 @@ body {
 }
 
 .informationData dt {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bolder;
   text-align: center;
   text-transform: uppercase;
@@ -142,7 +145,7 @@ body {
   margin-top: 36px;
 }
 .informationData dd {
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   margin: 0px;
 }

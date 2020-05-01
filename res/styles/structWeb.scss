@@ -95,6 +95,10 @@ div.centerSection{
         background-repeat: no-repeat;
         z-index: -1000;
     }
+
+    p{
+        font-size: 20px;
+    }
 }
 
 #educationSection{
@@ -141,7 +145,7 @@ body{
 .informationData {
 
     dt{
-        font-size:20px;
+        font-size:24px;
         font-weight: bolder;
         text-align: center;
         text-transform:uppercase;
@@ -150,10 +154,11 @@ body{
     }
 
     dd{
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
         margin:0px;
     }
+
 }
 
 footer{
