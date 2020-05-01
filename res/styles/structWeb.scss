@@ -5,6 +5,10 @@
     min-width: 100%; 
     min-height: 100%;
   }
+
+  i{
+      font-size: 100px;
+  }
     
 div.mainContent{
     position: relative;
@@ -117,23 +121,10 @@ div.centerSection{
 }
 
 #socialAccountsSection{
-    .informationData{
-        span{
-            visibility: hidden;
-        }
-        display: flex;  
-        flex-wrap: wrap;
-
-        div.contentWrapper{
-            display: flex;  
-            flex-wrap: wrap;
-            width:100px;
-            img{
-                width: 100px;
-                height: 100px;
-            }
-        }
-    }
+    text-align: center;
+    padding-bottom: 4vh;
+    margin-bottom: 5vh;
+    color: rgba(0,0,0,0.75);
 }
 
 body{

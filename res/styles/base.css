@@ -24,6 +24,10 @@ a:active {
   min-height: 100%;
 }
 
+i {
+  font-size: 100px;
+}
+
 div.mainContent {
   position: relative;
   bottom: 0;
@@ -111,21 +115,11 @@ div.centerSection div.imageSection {
   background-attachment: local;
 }
 
-#socialAccountsSection .informationData {
-  display: flex;
-  flex-wrap: wrap;
-}
-#socialAccountsSection .informationData span {
-  visibility: hidden;
-}
-#socialAccountsSection .informationData div.contentWrapper {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100px;
-}
-#socialAccountsSection .informationData div.contentWrapper img {
-  width: 100px;
-  height: 100px;
+#socialAccountsSection {
+  text-align: center;
+  padding-bottom: 4vh;
+  margin-bottom: 5vh;
+  color: rgba(0, 0, 0, 0.75);
 }
 
 body {
