@@ -28,7 +28,7 @@ $mobileVariableWidth: "max-width: 500px";
     }
     
     p{
-        background-color: $blueBlack;
+        background-color: $composerColorSecond;
         color: white;
         text-align: center;
         padding:10px;
@@ -41,7 +41,7 @@ $mobileVariableWidth: "max-width: 500px";
             display:inline-block;
             width:100vw;
             margin:0px;
-            background-color: $yellow;
+            background-color: $composerColorBase;
             font-size: 88px;
             font-weight:bold
         }
@@ -170,7 +170,7 @@ div#socialAccountsSection{
 footer{
     font-size:50px;
     text-align:center;
-    background-color:$blueBlack;
+    background-color:$composerColorBase;
     color:white;
     p{
         margin:0px;
