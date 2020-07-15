@@ -18,12 +18,9 @@ div.mainContent{
 }
 
 #introduction{
-
-
-    
-
     p{
         background-color: $composerColorSecond;
+      
         color: black;
         text-align: center;
         padding:10px;
@@ -83,6 +80,10 @@ div.centerSection{
         border-bottom-style: solid;
         border-color: #080B21;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    div.div-part{
+        border-radius: 10px;
     }
 
     div.imageSection{
