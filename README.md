@@ -1,2 +1,2 @@
 # CV
-Profesional CV
+Professional CV
