@@ -1,8 +1,17 @@
+$mobileVariableWidth: "max-width: 400px";
 
-$mobileVariableWidth: "max-width: 500px";
-
-//desktop design
+// desktop design
 @import "structweb.scss";
 
+/*
 //mobile design
-@import "structmob.scss";
+@media screen and ($mobileVariableWidth){
+    @import "structmob.scss";
+}
+*/
+
+@media screen and ($mobileVariableWidth){
+    body{
+        color: green;
+    }
+}
