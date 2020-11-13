@@ -159,10 +159,10 @@ footer p {
   margin: 0px;
 }
 
-@media screen and (max-width: 500px) and (orientation: landscape), (orientation: portrait) {
+@media screen and (max-width: 500px) {
   #introduction-decoration {
-    background: whitesmoke;
-    border: 0.5px dotted whitesmoke;
+    background: rgba(178, 185, 200, 0.85);
+    border: 0.5px dotted rgba(178, 185, 200, 0.85);
     width: 25vw;
     height: 25vw;
     border-radius: 50%;
@@ -178,7 +178,7 @@ footer p {
     background-color: rgba(178, 185, 200, 0.85);
     text-align: center;
     padding: 10px;
-    font-size: 28px;
+    font-size: 24px;
   }
   #introduction header {
     margin: 0px;
