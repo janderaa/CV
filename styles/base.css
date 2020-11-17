@@ -165,7 +165,7 @@ footer p {
     @import "structmob.scss";
 }
 */
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 400px) {
   body {
     color: green;
   }
