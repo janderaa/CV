@@ -3,7 +3,7 @@
     background-color: $composerColorSecond;
     text-align: center;
     padding: 10px;
-    font-size: 32px;
+    font-size: 2.5rem;
   }
 
   header {
@@ -14,13 +14,13 @@
       width: 80%;
       margin: 0px;
       background-color: $composerColorBase;
-      font-size: 40px;
+      font-size: 4rem;
       font-weight: bold;
     }
 
     p {
       width: 50%;
-      font-size: 32px;
+      font-size: 3rem;
       margin-top: 0px;
       text-align: left;
       font-weight: 200;
@@ -46,7 +46,7 @@ div.centerSection {
 
   div.div-part {
     p {
-      font-size: 32px;
+      font-size: 3rem;
       text-align: justify;
     }
   }
@@ -95,14 +95,14 @@ body {
 }
 
 .innerTitle {
-  font-size: 40px;
+  font-size: 3rem;
   text-align: center;
   font-weight: bold;
 }
 
 .informationData {
   dt {
-    font-size: 32px;
+    font-size: 3rem;
     font-weight: bolder;
     text-align: center;
     text-transform: uppercase;
@@ -111,7 +111,7 @@ body {
   }
 
   dd {
-    font-size: 32px;
+    font-size: 2.5rem;
     text-align: center;
     margin: 0px;
   }
