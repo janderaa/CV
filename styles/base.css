@@ -161,6 +161,7 @@ footer p {
 
 @media screen and (min-width: 200px) and (max-width: 1000px) {
   #introduction p {
+    margin-top: 40vw;
     background-color: rgba(178, 185, 200, 0.92);
     text-align: center;
     padding: 10px;
@@ -200,6 +201,9 @@ footer p {
     background-color: rgba(178, 185, 200, 0.92);
     border: none;
     box-shadow: none;
+  }
+  div.centerSection div.div-part {
+    margin-top: 10vw;
   }
   div.centerSection div.div-part p {
     font-size: 3rem;
