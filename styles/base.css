@@ -211,27 +211,20 @@ footer p {
   }
   div.centerSection div.imageSection {
     width: 100%;
-    height: 75%;
-    padding-bottom: 20vw;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: -1000;
   }
 
   #educationSection div.imageSection {
-    background-image: url("../img/UDFJ.jpg");
+    background-image: url("../res/img/UDFJ.jpg");
     margin-left: 0px;
   }
 
   #portfolioSection div.imageSection {
-    background-image: url("../img/PHPsample.gif");
+    background-image: url("../res/img/PHPsample.gif");
     margin-left: 0px;
   }
 
   #proExperienceSection div.imageSection {
-    background-image: url("../img/pegasus.gif");
+    background-image: url("../res/img/pegasus.gif");
     background-size: cover;
     background-attachment: local;
   }
