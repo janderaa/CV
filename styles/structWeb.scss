@@ -11,7 +11,7 @@ div.mainContent {
 }
 
 #introduction {
-  p {
+  p{
     background-color: $composerColorSecond;
     color: black;
     text-align: center;
@@ -19,7 +19,7 @@ div.mainContent {
     font-size: 1.3em;
   }
 
-  header {
+  header{
     margin: 0px;
     padding-bottom: 30vh;
 
@@ -36,17 +36,17 @@ div.mainContent {
       &#mainTitle {
         text-align: center;
       }
-      
-      p {
-        font-size: 1.3em;
-        width: 50%;
-        margin-top: 0px;
-        text-align: left;
-        font-weight: 200;
-      }
 
     }
 
+    p {
+      font-size: 1.1em;
+      width: fit-content;
+      margin:auto;
+      margin-top: 2em;
+      border-radius: 20px;
+      background-color:bisque;
+    }
     
   }
 }
@@ -89,7 +89,7 @@ div.centerSection {
   }
 
   p {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 }
 
@@ -137,16 +137,17 @@ body {
 
 .informationData {
   dt {
-    font-size: 1.6em;
-    font-weight: bolder;
-    text-align: center;
-    text-transform: uppercase;
+    font-size: 1em;
+    width:fit-content;
+    border-bottom: solid black 1px;
+    margin:auto;
+    padding: 0px 8px;
     margin-bottom: 12px;
     margin-top: 36px;
   }
 
   dd {
-    font-size: 1.3em;
+    font-size: 0.87em;
     text-align: center;
     margin: 0px;
   }
