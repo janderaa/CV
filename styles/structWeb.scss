@@ -36,15 +36,18 @@ div.mainContent {
       &#mainTitle {
         text-align: center;
       }
+      
+      p {
+        font-size: 1.3em;
+        width: 50%;
+        margin-top: 0px;
+        text-align: left;
+        font-weight: 200;
+      }
+
     }
 
-    p {
-      font-size: 1.3em;
-      width: 20%;
-      margin-top: 0px;
-      text-align: left;
-      font-weight: 200;
-    }
+    
   }
 }
 

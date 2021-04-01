@@ -58,8 +58,8 @@ div.mainContent {
 }
 #introduction header p {
   font-size: 1.3em;
-  width: 20%;
   margin-top: 0px;
+  padding: 1em 0px;
   text-align: left;
   font-weight: 200;
 }
@@ -139,8 +139,7 @@ body {
 }
 
 .informationData dt {
-  font-size: 1.6em;
-  font-weight: bolder;
+  font-size: 1.4em;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 12px;
