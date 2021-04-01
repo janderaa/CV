@@ -9,11 +9,3 @@ $mobileVariableWidth2: "max-width: 1000px";
 @media screen and ($mobileVariableWidth) and ($mobileVariableWidth2){
     @import "structmob.scss";
 }
-
-/*
-@media screen and ($mobileVariableWidth) and ($mobileVariableWidth2){
-    body{
-        color: green;
-    }
-}
-*/

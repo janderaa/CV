@@ -2,8 +2,12 @@
 $composerColorBase: rgba(12,20, 35, 0.50);
 $composerColorSecond: rgba(178,185,200, 0.92);
 $softBlue: rgba(178,175,200,0.82);
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
+
+body {
+    font-family: Noto, Helvetica, sans-serif;
+    margin: 0px;
+}
 
 a{
     color:inherit;
