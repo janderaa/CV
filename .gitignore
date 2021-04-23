@@ -1,2 +1,4 @@
 *.map
 *.swp
+styles/css/*
+styles/webfonts/*
