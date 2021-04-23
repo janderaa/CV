@@ -1,3 +1,74 @@
-// imports
-@import "general.scss";
-@import "structgen.scss";
+@use 'animations';
+
+$image_canio: "../res/img/canio_cristales.png";
+$color_gray: rgb(32,34,36);
+
+
+body{
+    background-color: #E3E3E3;
+}
+
+footer{
+    &.nata-footer-black{
+        background-color: $color_gray;
+        color: whitesmoke;
+        text-align: center;
+    }
+}
+
+div.container{
+    padding: 1em 1em;
+    i{
+        font-size: 6vw;
+    }
+}
+
+img{
+    &.nata-imgshadow{
+        box-shadow: 0px 10px 2px 1px rgba(0, 0, 0, 0.2),
+                    0px -10px 2px 1px rgba(0, 0, 0, 0.2);
+
+    }
+}
+
+div{
+
+    &.nata-portfolio{
+        background-color: $color_gray;
+        color: whitesmoke;
+        margin-top: 10em;
+    }
+
+    &.nata-fullimg{
+        background-image: url($image_canio);
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    &.nata-blurimg{
+        filter: blur(200px);
+        -webkit-filter: blur(200px);
+    }
+
+    &.nata-attentionblank{
+        padding-top: 10%;
+        padding-bottom: 2em;
+    }
+
+    &.nata-navbarcenter{
+        width: 100%;
+        margin: auto;
+        ul{
+            display: table;
+            list-style: none;
+            padding: 0;
+            li{
+                display:inline-block;
+                padding-left: 8px;
+            }
+        }
+        
+        width:100%;
+        margin:auto;
+    }
+}

@@ -1,277 +1,151 @@
-body {
-  font-family: Noto, Helvetica, sans-serif;
-  margin: 0px;
-}
-
-a {
-  color: inherit;
-  font-weight: bold;
-}
-a:link {
-  text-decoration: none;
-}
-a:visited {
-  text-decoration: dotted;
-}
-a:hover {
-  text-decoration: none;
-}
-a:active {
-  text-decoration: double;
-}
-
-i {
-  font-size: 100px;
-}
-
-div.mainContent {
+/*
+Modified Box Loader
+Credits to: Anubrata DS
+Direct Link: https://github.com/manrajgrover/SingleDivProject/blob/master/Loaders/Box%20Loader.html
+Forked from the one div repository, thank you guys :)
+*/
+div.nata-box-loader {
   position: relative;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%;
-}
-
-#introduction p {
-  background-color: rgba(178, 185, 200, 0.92);
-  color: black;
-  text-align: center;
-  padding: 10px;
-  font-size: 1.3em;
-}
-#introduction header {
-  margin: 0px;
-  padding-bottom: 30vh;
-}
-#introduction header h1 {
-  display: inline-block;
-  width: 100%;
-  background-color: rgba(12, 20, 35, 0.5);
-  margin: 0px;
-  margin-top: 40vh;
-  padding: 2px 0vw;
-  color: white;
-  font-size: 3em;
-  font-weight: bold;
-}
-#introduction header h1#mainTitle {
-  text-align: center;
-}
-#introduction header p {
-  font-size: 1.1em;
-  width: fit-content;
-  margin: auto;
-  margin-top: 2em;
-  border-radius: 20px;
-  background-color: bisque;
-}
-
-div.centerSection {
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 50px;
-}
-div.centerSection div.div-part:nth-child(odd) {
-  background-color: rgba(178, 175, 200, 0.82);
-  border-left-style: solid;
-  border-color: #080b21;
-  border-bottom-style: solid;
-  border-color: #080b21;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-div.centerSection div.div-part:nth-child(even) {
-  background-color: rgba(255, 255, 255, 0.65);
-  border-right-style: solid;
-  border-color: #080b21;
-  border-bottom-style: solid;
-  border-color: #080b21;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-div.centerSection div.div-part {
+  margin: 0 auto;
+  width: 300px;
+  border: 10px solid white;
+  height: 300px;
   border-radius: 10px;
 }
-div.centerSection div.imageSection {
-  width: 50%;
-  height: 75%;
-  padding-bottom: 20vw;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1000;
-}
-div.centerSection p {
-  font-size: 1em;
-}
 
-#educationSection div.imageSection {
-  background-image: url("../res/img/UDFJ.jpg");
-  margin-left: 50%;
-}
-
-#portfolioSection div.imageSection {
-  background-image: url("../res/img/PHPsample.gif");
-  margin-left: 50%;
-}
-
-#proExperienceSection div.imageSection {
-  background-image: url("../res/img/pegasus.gif");
-  background-size: cover;
-  background-attachment: local;
-}
-
-#socialAccountsSection {
+div.nata-box-loader:before {
+  content: "Fullstack";
+  padding-top: 20%;
   text-align: center;
-  padding-bottom: 4vh;
-  margin-bottom: 5vh;
-  color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  animation: full 3s ease-in-out infinite reverse;
 }
 
+div.nata-box-loader:after {
+  content: "";
+  position: absolute;
+}
+
+@keyframes full {
+  0% {
+    content: "Fullstack";
+    background: cyan;
+    left: 2%;
+    top: 2%;
+    width: 48%;
+    height: 48%;
+  }
+  12.5% {
+    left: 2%;
+    top: 2%;
+    width: 48%;
+    height: 96%;
+  }
+  25% {
+    background: aquamarine;
+    content: "Front End";
+    left: 2%;
+    top: 50%;
+    width: 48%;
+    height: 48%;
+  }
+  37.5% {
+    left: 2%;
+    top: 50%;
+    width: 96%;
+    height: 48%;
+  }
+  50% {
+    background: coral;
+    content: "Backend";
+    left: 50%;
+    top: 50%;
+    width: 48%;
+    height: 48%;
+  }
+  62.5% {
+    left: 50%;
+    top: 2%;
+    width: 48%;
+    height: 96%;
+  }
+  75% {
+    background: aquamarine;
+    content: "Design";
+    left: 50%;
+    top: 2%;
+    width: 48%;
+    height: 48%;
+  }
+  87.5% {
+    width: 96%;
+    height: 48%;
+    left: 2%;
+    top: 2%;
+  }
+  100% {
+    background: cyan;
+    width: 48%;
+    height: 48%;
+    left: 2%;
+    top: 2%;
+  }
+}
 body {
-  background-image: url("../res/img/Hugh Ferris.jpeg");
-  background-repeat: no-repeat;
+  background-color: #E3E3E3;
+}
+
+footer.nata-footer-black {
+  background-color: #202224;
+  color: whitesmoke;
+  text-align: center;
+}
+
+div.container {
+  padding: 1em 1em;
+}
+div.container i {
+  font-size: 6vw;
+}
+
+img.nata-imgshadow {
+  box-shadow: 0px 10px 2px 1px rgba(0, 0, 0, 0.2), 0px -10px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+div.nata-portfolio {
+  background-color: #202224;
+  color: whitesmoke;
+  margin-top: 10em;
+}
+div.nata-fullimg {
+  background-image: url("../res/img/canio_cristales.png");
   background-size: cover;
-  background-attachment: fixed;
+  background-position: 50% 40%;
 }
-
-.innerTitle {
-  font-size: 1.6em;
-  text-align: center;
-  font-weight: bold;
+div.nata-blurimg {
+  filter: blur(200px);
+  -webkit-filter: blur(200px);
 }
-
-.informationData dt {
-  font-size: 1em;
-  width: fit-content;
-  border-bottom: solid black 1px;
+div.nata-attentionblank {
+  padding-top: 10%;
+  padding-bottom: 2em;
+}
+div.nata-navbarcenter {
+  width: 100%;
   margin: auto;
-  padding: 0px 8px;
-  margin-bottom: 12px;
-  margin-top: 36px;
+  width: 100%;
+  margin: auto;
 }
-.informationData dd {
-  font-size: 0.87em;
-  text-align: center;
-  margin: 0px;
+div.nata-navbarcenter ul {
+  display: table;
+  list-style: none;
+  padding: 0;
 }
-
-footer {
-  font-size: 1em;
-  text-align: center;
-  background-color: rgba(12, 20, 35, 0.5);
-  color: white;
-}
-footer p {
-  margin: 0px;
-}
-
-@media screen and (min-width: 200px) and (max-width: 1000px) {
-  #introduction p {
-    margin-top: 40vw;
-    background-color: rgba(178, 185, 200, 0.92);
-    text-align: center;
-    padding: 10px;
-    font-size: 2.1rem;
-  }
-  #introduction header {
-    margin: 0px;
-    padding-bottom: 5vh;
-  }
-  #introduction header h1 {
-    display: inline-block;
-    width: 80%;
-    margin: 0px;
-    background-color: rgba(12, 20, 35, 0.5);
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
-  #introduction header p {
-    width: 50%;
-    font-size: 2.1rem;
-    margin-top: 0px;
-    text-align: left;
-    font-weight: 200;
-  }
-
-  div.centerSection {
-    margin-left: 0px;
-    margin-right: 0px;
-    border: none;
-  }
-  div.centerSection div.div-part:nth-child(odd) {
-    background-color: rgba(178, 175, 200, 0.82);
-    border: none;
-    box-shadow: none;
-  }
-  div.centerSection div.div-part:nth-child(even) {
-    background-color: rgba(178, 185, 200, 0.92);
-    border: none;
-    box-shadow: none;
-  }
-  div.centerSection div.div-part {
-    margin-top: 10vw;
-  }
-  div.centerSection div.div-part p {
-    font-size: 2.2rem;
-    text-align: justify;
-  }
-  div.centerSection div.imageSection {
-    width: 100%;
-  }
-
-  #educationSection div.imageSection {
-    background-image: url("../res/img/UDFJ.jpg");
-    margin-left: 0px;
-  }
-
-  #portfolioSection div.imageSection {
-    background-image: url("../res/img/PHPsample.gif");
-    margin-left: 0px;
-  }
-
-  #proExperienceSection div.imageSection {
-    background-image: url("../res/img/pegasus.gif");
-    background-size: cover;
-    background-attachment: local;
-  }
-
-  #socialAccountsSection {
-    flex-wrap: nowrap;
-  }
-
-  .innerTitle {
-    font-size: 2.3rem;
-    text-align: center;
-    font-weight: bold;
-  }
-
-  .informationData dt {
-    font-size: 2.3rem;
-    font-weight: bolder;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 12px;
-    margin-top: 36px;
-  }
-  .informationData dd {
-    font-size: 2.3rem;
-    text-align: center;
-    margin: 0px;
-  }
-
-  div#socialAccountsSection img,
-div#socialAccountsSection span {
-    vertical-align: middle;
-  }
-
-  footer {
-    font-size: 2.2rem;
-    text-align: center;
-    background-color: rgba(12, 20, 35, 0.5);
-    color: white;
-  }
-  footer p {
-    margin: 0px;
-  }
+div.nata-navbarcenter ul li {
+  display: inline-block;
+  padding-left: 8px;
 }
 
 /*# sourceMappingURL=base.css.map */
