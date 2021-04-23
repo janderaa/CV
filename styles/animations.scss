@@ -1,0 +1,93 @@
+/*
+Modified Box Loader
+Credits to: Anubrata DS
+Direct Link: https://github.com/manrajgrover/SingleDivProject/blob/master/Loaders/Box%20Loader.html
+Forked from the one div repository, thank you guys :)
+*/
+
+div.nata-box-loader{
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+    border: 10px solid white;
+    height: 300px;
+    border-radius: 10px;
+  }
+div.nata-box-loader:before{
+    content: 'Fullstack';
+    padding-top: 20%;
+    text-align: center;
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    animation: full 3s ease-in-out infinite reverse;
+    }
+div.nata-box-loader:after{
+    content: '';
+    position: absolute;
+  }
+  @keyframes full{
+    0%{
+      content: 'Fullstack';
+      background: cyan;
+      left:2%;
+      top:2%;
+      width: 48%;
+      height:48%;
+     }
+    12.5%{
+      left:2%;
+      top:2%;
+      width: 48%;
+      height:96%;
+    }
+    25%{
+      background: aquamarine;
+      content: 'Front End';
+      left:2%;
+      top:50%;
+      width: 48%;
+      height:48%;
+     }
+     37.5%{
+      left:2%;
+      top:50%;
+      width: 96%;
+      height: 48%; 
+     }
+    50%{
+      background: coral;
+      content: 'Backend';
+      left:50%;
+      top:50%;
+      width: 48%;
+      height: 48%;
+     }
+     62.5%{
+      left:50%;
+      top:2%;
+      width: 48%;
+      height: 96%;
+     }
+    75%{
+      background: aquamarine;
+      content: 'Design';
+      left:50%;
+      top:2%;
+      width: 48%;
+      height: 48%;
+      }
+     87.5%{
+      width: 96%;
+      height:48%;
+      left:2%;
+      top:2%;
+     }
+    100%{
+      background: cyan;
+      width: 48%;
+      height:48%;
+      left:2%;
+      top:2%;
+      }
+    }

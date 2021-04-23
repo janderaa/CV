@@ -17,7 +17,7 @@
     <meta property= "og:type" content="website">
     <meta property= "og:image" content="res/img/www.jpg">
 
-    
+    <link rel="shortcut icon" href="res/logo/serra.png" />
     
 
     <!--External dependencies-->
@@ -29,51 +29,79 @@
 
     <link rel="stylesheet" href="styles/base.css">
 
+    <!--Font awesome, fancy but expensive-->
+    <link href="styles/css/all.css" rel="stylesheet">
+
 
 </head>
 <body>
     <Header>
-        <nav class="navbar fixed-top navbar-light bg-light">
-            <a href="#">About me</a>
-            <a href="">Education</a>
-            <a href="">Experience</a>
-            <a href="">Portfolio</a>
-            <a href="">Skills</a>
-            <a href="">Recommendations</a>
-            <a href="">Contact me</a>
+          <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light " align="center">
+            <div class="nata-navlogo"></div>
+            <div class="nata-navbarcenter">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                         <a class="nav-link" href="#">About me <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Recommendations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact me</a>
+                        </li>
+                    </ul>
+            </div>
           </nav>
+          
     </Header>
-    <div class="text-justify">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <img src="res/img/canio_cristales.png" alt="getbetterinternet" height="400px" style="width: 100%">
-            </div>
-        </div>
-    </div>
-    <div class="container bg-white">
-        <div class="row">
-            <div class="col">
-                <h2>About me</h2>
-                <p>My name is Andrés Sierra, i use a lot of alias on the internet. I'm a optimization kinda guy and design apassionate both on programming and artistically.</p>
-                <p>I don't like to have a lot of trophies to show off, for being humble, my perspective on merits is not qualified by quantities but on "what i've been done untill now"</p>
-                <p>Rather i prefer to ellaborate things which are meaningful or useful for people</p>
-                
 
-            </div>
+    
+    <div class="text-justify">
+    <div class="nata-fullimg">
+        <div class="nata-attentionblank nata-fullblurimg" style="background-image: 'res/img/canio_cristales.png'">
+            <!-- Modified box-loader, forked from the one div project-->
+            <div class="nata-box-loader"></div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <img src="res/img/bogota_noche.jpg" alt="getbetterinternet" height="400px" style="width: 100%">
-            </div>
-        </div>
-    </div>
+    
     <div class="container bg-white">
-        <h2>Education</h2>
+        <h2 class="text-center">About me</h2>
         <div class="row">
             <div class="col-lg-6">
+		        <img class="mx-auto d-block" src="res/logo/serra.png" width="250" heigth="250">
+            </div>
+            <div class="col-lg-6">   
+                <p>Hello there i am Andrés Sierra, along a lot of aliases on the internet. I'm a optimization kinda guy and design apassionate both on programming and art.</p>
+                <p>I don't like to have a lot of trophies to show off, for being humble, my perspective on merits is not qualified by quantities but on demonstrations</p>
+                <p>I like to ellaborate things which are meaningful or useful for people, in a computer science point of view i highly think about growth, stability and scalability when thinking on doing my work. Specially on legacy code</p>
+                <p>And since being a developer pays off well, here i am</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img class="nata-imgshadow" src="res/img/bogota_noche.jpg" alt="getbetterinternet" height="400px" style="width: 100%">
+            </div>
+        </div>
+    </div>
+    <div class="container bg-white">
+        
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Education</h2>
                 <dl>
                     <dt>Student of Technology in data systematization - pregrade (Colombia)</dt>
                         <dd>2017 - 2020,<a href="https://www.udistrital.edu.co/inicio">Universidad Distrital Francisco José de Caldas</a></dd>
@@ -83,21 +111,21 @@
                         <dd>B2+ out of B2+, Saber PRO (Colombia)</dd>
                     <dt>Various certifications</dt>
                         <dd>See them at <a href="">this plain text file</a></dd>
-                    </dl>
+                </dl>
             </div>
             <div class="col-lg-6">
-                <img src="res/img/bogota_noche.jpg" alt="getbetterinternet" heigth="350px" width="350px">
+                <img class="mx-auto d-block" src="res/img/bogota_noche.jpg" alt="getbetterinternet" heigth="350px" width="350px">
             </div>
         </div>
     </div>
     <div class="container bg-white">
-        <h2>Experience</h2>
         <div class="row">
             <div class="col-lg-6">
-                <img src="res/img/bogota_noche.jpg" alt="getbetterinternet" heigth="350px" width="350px">
+                <img class="mx-auto d-block" src="res/img/bogota_noche.jpg" alt="getbetterinternet" heigth="350px" width="350px">
             </div>
             <div class="col-lg-6">
                 <dl>
+                    <h2>Experience</h2>
                     <dt>Member of the Group of investigation of Pegasus</dt>
                         <dd>2019-2021, Universidad Distrital Francisco José de Caldas</dd>
                         <dd>
@@ -110,8 +138,8 @@
             </div>
         </div>
     </div>
-    <div class="container bg-black">
-        <h2>Portfolio</h2>
+    <div class="container nata-portfolio">
+        <h2 class="text-center">Portfolio</h2>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -120,7 +148,9 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="..." alt="First slide">
+                <a href="#">
+                    <img class="d-block mx-auto w-75" src="res/img/portfolio/toast1.png" alt="First slide">
+                </a>
               </div>
               <!--div class="carousel-item">
                 <img class="d-block w-100" src="..." alt="Second slide">
@@ -139,7 +169,7 @@
 
     
     <div class="container bg-white">
-        <h2>Skills</h2>
+        <h2 class="text-center">Skills</h2>
         <div class="row">
             <div class="col">
                 <dt>Computer languages</dt>
@@ -169,17 +199,17 @@
             <div class="col">
                 <dt>Human Languages</dt>
                     <dd>Native Spanish</dd>
-                    <dd>C1 English</dd>
+                    <dd>English</dd>
                     <dd>learning Latin</dd>
             </div>
         </div>
-        <p>And up to learn more!</p>
+        <p class="text-center">And up to learn more!</p>
     </div>
     <div class="container bg-white">
-        <h2>Recommendations</h2>
-        <p>I have read these books on my spare time and on my schedudle</p>
         <div class="row">
             <div class="col-lg-6">
+                <h2>Recommendations</h2>
+                <p>I have read these books on my spare time and on my schedudle</p>
                 <ul>
                     <li>Narasimha Karamanchi - Data structures and Algorithms made easy</li>
                     <li>Paul Orland - Math for Programmers</li>
@@ -190,28 +220,27 @@
                 </ul>
             </div>
             <div class="col-lg-6">
-                <img src="res/img/bogota_noche.jpg" alt="getbetterinternet" heigth="350px" width="350px">
+                <img class="mx-auto d-block" src="res/img/bogota_noche.jpg" alt="getbetterinternet" heigth="350px" width="350px">
             </div>
         </div>
      </div>
     <div class="container bg-white">
-        <h2>Contact me</h2>
+        <h2 class="text-center">Contact me</h2>
         <div class="row">
-            <div class="col">
-                <a href="">Github</a>
-                <a href="">Email me</a>
+            <div class="col text-center">
+                <a href="" title="My githhub"><i class="fab fa-github-square"></i></i></a>
+                <a href="" title="Protonmail mail"><i class="fas fa-atom"></i></a>
             </div>
         </div>
     </div>
     </div>
-    <footer class="footer footer-black footer-big">
+    <footer class="nata-footer-black">
         <div class="container">
-            
+            <p>MIT licensed, Made with peanuts and salt</p>
         </div>
-        <div class="copyright pull-right">All rights reserved | 2019 - 2021 | EndeavourOS</div>
     </footer>
 </body>
 <!--Spooky JS files-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </html>
